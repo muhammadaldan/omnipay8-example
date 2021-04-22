@@ -1,27 +1,26 @@
 {
-    "homepage": "https://github.com/thephpleague/omnipay-example",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Adrian Macneil",
-            "email": "adrian@adrianmacneil.com"
-        },
-        {
-            "name": "Barry vd. Heuvel",
-            "email": "barryvdh@gmail.com"
-        },
-        {
-            "name": "Omnipay Community",
-            "homepage": "https://github.com/thephpleague/omnipay-example/graphs/contributors"
-        }
-    ],
-    "require": {
-        "league/omnipay": "^3",
-        "silex/silex": "~1.1",
-        "twig/twig": "~1.12",
-        "omnipay/dummy": "^3.0",
-        "omnipay/paypal": "^3.0",
-        "omnipay/stripe": "^3.0",
-        "omnipay/mollie": "^4.0"
+  "homepage": "https://github.com/thephpleague/omnipay-example",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adrian Macneil",
+      "email": "adrian@adrianmacneil.com"
+    },
+    {
+      "name": "Barry vd. Heuvel",
+      "email": "barryvdh@gmail.com"
+    },
+    {
+      "name": "Omnipay Community",
+      "homepage": "https://github.com/thephpleague/omnipay-example/graphs/contributors"
     }
+  ],
+  "require": {
+    "muhammadaldan/omnipay8": "1.2",
+    "silex/silex": "~1.1",
+    "twig/twig": "~1.12",
+    "muhammadaldan/omnipay8-tests": "1.1",
+    "muhammadaldan/omnipay8-dummy": "^1.0",
+    "symfony/flex": "^1.12"
+  }
 }
